@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package example;
+
+// @api:GetUserInfo
+message UserRequest { string user_id = 1; }
+
+// fjeijfiejfifjeifj
+message UserResponse {
+  string user_name = 1;
+  int32 user_age = 2;
+}
